@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:17-alpine'
+    environment:
+      - 'POSTGRES_DB=runnerz'
+      - 'POSTGRES_PASSWORD=Agwenchez254'
+      - 'POSTGRES_USER=agwenchez'
+    ports:
+      - '5432:5432'
